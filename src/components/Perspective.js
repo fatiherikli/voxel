@@ -20,6 +20,7 @@ export default function Perspective({
       tabIndex={ 1 }
       onMouseUp={ onStretchStop }
       onMouseDown={ onStartDragView }
+      onContextMenu={ (e) => e.preventDefault() }
       style={{
         WebkitTransform: `rotateX(${rotation.x}deg) rotateZ(${rotation.z}deg)`
       }}
