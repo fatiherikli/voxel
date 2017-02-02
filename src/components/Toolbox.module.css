@@ -1,0 +1,10 @@
+.toolbox {
+  margin-left: -190px;
+  margin-top: -60px;
+  position: absolute;
+}
+
+.toolbox p {
+  font-size: 0.9em;
+  color: gray;
+}
