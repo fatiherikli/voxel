@@ -7,4 +7,10 @@
 .toolbox p {
   font-size: 0.9em;
   color: gray;
+  margin-bottom: 0;
+}
+
+.toolbox a {
+  font-size: 0.9em;
+  color: #abb8c3;
 }

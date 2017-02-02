@@ -16,6 +16,7 @@ export default function Toolbox({
         onChangeComplete={ onChangeColor }
       />
       <p>Ctrl+click to remove a cube.</p>
+      <a href={'http://github.com/fatiherikli/voxel'}>Source code on github</a>
     </div>
   );
 }
